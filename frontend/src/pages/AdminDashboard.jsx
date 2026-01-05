@@ -3,7 +3,7 @@ import api from "../api/axios";
 import AdminNavbar from "../components/AdminNavbar";
 import MemberManagement from "../components/MemberManagement";
 import AdminTaskPanel from "../components/AdminTaskPanel";
-import KanbanBoard from "../components/kanbanBoard";
+import KanbanBoard from "../components/KanbanBoard";
 
 const AdminDashboard = () => {
   // ✅ DEFINE TASKS STATE
@@ -48,3 +48,4 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
+

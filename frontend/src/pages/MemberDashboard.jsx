@@ -5,7 +5,7 @@ import TaskStatusCards from "../components/TaskStatusCards";
 import MemberProgressChart from "../components/MemberProgressChart";
 import StreakCard from "../components/StreakCard";
 import ProductivityCard from "../components/ProductivityCard";
-import KanbanBoard from "../components/kanbanBoard";
+import KanbanBoard from "../components/KanbanBoard";
 
 const MemberDashboard = () => {
   const [tasks, setTasks] = useState([]);
@@ -50,4 +50,5 @@ const MemberDashboard = () => {
 };
 
 export default MemberDashboard;
+
 
